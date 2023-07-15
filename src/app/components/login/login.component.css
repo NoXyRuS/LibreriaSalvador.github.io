@@ -1,0 +1,54 @@
+.login {
+    background-color: #48a55e;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+}
+
+.LoginForm {
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    background-color: #ffffff;
+    border: none;
+    max-width: 480px;
+    width: 450px;
+}
+
+.btn-success {
+    margin-top: 25px;
+    background-color: #28a745;
+    border-color: #28a745;
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.btn-success:hover {
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+.enlace {
+    color: #28a745;
+}
+
+.enlace:hover{
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 5px rgba(17, 134, 45, 0.5);
+}
+
+@media (max-width: 480px) {
+    .card {
+        background-color: #ffffff;
+        width: 320px;
+    }
+}

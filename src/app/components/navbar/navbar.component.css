@@ -1,0 +1,57 @@
+/*-- BARRA DE NAVEGACIÓN --*/
+.navbar {
+    background-color: #28a745;
+}
+
+.logo-image {
+    width: 50%;
+    height: auto;
+}
+
+.navbar-nav .nav-link i {
+    color: white;
+}
+
+#iconosNavbar {
+    margin-left: 4rem;
+}
+
+
+/* Breakpoint - Responsive - Tamaño de Pantalla 991px */
+@media (max-width: 991px) {
+
+    .navbar-brand {
+        margin-right: 0 !important;
+    }
+
+    .logo-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 50%;
+        height: auto;
+    }
+
+    .navbar-collapse {
+        flex-basis: 100%;
+        justify-content: center;
+    }
+
+    .input-group {
+        width: 100%;
+    }
+
+    #iconosNavbar {
+        margin-left: 0;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .navbar-nav .nav-item {
+        flex-basis: 30%;
+        text-align: center;
+    }
+}

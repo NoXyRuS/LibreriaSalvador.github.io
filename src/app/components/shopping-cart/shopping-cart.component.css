@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    /* Espacio superior */
+}
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* Espacio adicional desde la parte superior */
+}
+
+.form-check label {
+    font-size: 15px;
+    color: green;
+    font-weight: 500;
+}
+
+.form-check-input:checked {
+    background-color: green;
+    border: none;
+    background: green;
+    /* Cambia el color de fondo al seleccionado */
+}
+
+.retiroTienda h5 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.envio h5 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.envio label{
+    font-size: 12px;
+}
+
+.img-libro {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.card-title {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.list-group {
+    margin-top: 15px;
+    border-radius: 0;
+}
+
+#botonPagar {
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 0;
+    background-color: gre;
+}
+
+@media (max-width: 1199px) {
+    #googleMap iframe {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media (max-width: 767px) {
+    .card.align-items-center {
+        flex-direction: column;
+    }
+
+    .card.align-items-center .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card.align-items-center .col-md-8,
+    .card.align-items-center .col-md-4 {
+        width: 100%;
+    }
+
+    .card.align-items-center .col-md-4 {
+        margin-top: 5px;
+    }
+
+    #googleMap iframe {
+        width: 100%;
+        height: 500px;
+    }
+}

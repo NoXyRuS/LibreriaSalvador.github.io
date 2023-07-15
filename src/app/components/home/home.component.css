@@ -1,0 +1,70 @@
+/*-- SECCIÓN LIBROS --*/
+.seccionLibros {
+    padding: 20px 0;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgb(241, 242, 241);
+}
+
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    padding: 10px;
+    text-align: center;
+}
+
+.card-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.card-textp {
+    color: #10501f;
+}
+
+.seccionLibros a{
+    border: none;
+    width: 100%;
+    border-radius: 0%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 12px;
+}
+
+.seccionLibros a:hover{
+    background-color: black;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+/*-- FOOTER --*/
+footer {
+    background-color: #004811;
+}
+
+.footer-logo {
+    width: 220px;
+    height: auto;
+}

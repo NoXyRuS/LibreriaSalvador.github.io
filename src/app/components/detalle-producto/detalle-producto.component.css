@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    /* Espacio superior */
+}
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* Espacio adicional desde la parte superior */
+}
+
+.img-libro {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.card-title {
+    font-weight: 600;
+}
+
+.card-reseña {
+    text-align: justify;
+    font-size: 14px;
+}
+
+.d-flex.align-items-center button {
+    margin-left: 25px;
+    width: 100%;
+    border-radius: 0;
+}
+
+.d-flex.align-items-center button:hover {
+    background-color: black;
+    border-radius: 8px;
+    transition: all ease-in-out 0.5s;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.1);
+}
